@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="../restaurant-css-framework/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-black bg-black fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../restaurant-css-framework/image/Capture_d_écran_2023-10-03_à_10.53.30-removebg-preview (2).png" alt="Logo de votre site" width="150">
+            </a>          
+
+          <button class="navbar-toggler navbar-white bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon  "></span>
+          </button>
+          
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Galaxie Gourmande</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active text-white " aria-current="page" href="#">Acceuil</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Barre de navigation
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="../restaurant-css-framework/menu.html">Menu</a></li>
+                    <li><a class="dropdown-item" href="../restaurant-css-framework/pictures.html">Photos</a></li>
+                    <li><a class="dropdown-item" href="../restaurant-css-framework/restaurant.html">Restaurant</a></li>
+                    <li><a class="dropdown-item" href="../restaurant-css-framework/contact.html">Contact</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+
+    <div class="jumbotron text-center bg-white rounded pb-4 ">
+        <h1 class="display-4">Bienvenue chez Gourmande Galaxie</h1>
+        <p class="lead">Découvrez notre menu passionnant.</p>
+        <a class="btn btn-dark " href="../restaurant-css-framework/menu.html" role="button">En savoir plus</a>
+           
+    <div class="card mt-4 bg-dark mx-3 ">
+        <div class="card-body text-white ">
+            <h5 class="card-title text-decoration-underline ">Événements</h5>
+                <p class="card-text">Assiste à notre prochain événement le 16/10/2023.</p>
+        </div>
+    </div> 
+            <div class="card mt-4 bg-dark mx-3 ">
+                <div class="card-body text-white ">
+                    <h5 class="card-title text-decoration-underline ">Promotions</h5>
+                    <p class="card-text">Utilise le code promo #Ayoub1070 et t'auras accès à -10% sur tous les plats.</p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+
+        <footer class="bg-black text-white text-center py-1">
+            <div class="container">
+              <p>2023 Burger Fusion &copy;</p>
+            </div>
+          </footer> 
+
+         
+
+
+</body>
+</html>
