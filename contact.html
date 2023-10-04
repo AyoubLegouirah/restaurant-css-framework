@@ -12,7 +12,7 @@
 
 
 <body>
-    <nav class="navbar navbar-black bg-black fixed-top">
+    <nav class="navbar navbar-black bg-black ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="../restaurant-css-framework/image/Capture_d_écran_2023-10-03_à_10.53.30-removebg-preview (2).png" alt="Logo de votre site" width="150">
@@ -53,14 +53,71 @@
         </div>
       </nav>
 
+  <div class="container mt-5 "   >
+    <div class="row justify-content-center align-items-center "   > 
+      <div class=" bg-dark col-md-6 "> 
+        <div class="mb-2 text-warning">
+          <label for="formGroupExampleInput" class="form-label">Prénom</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Tape ton prénom ici">
+        </div>
+        <div class="mb-2 text-warning ">
+          <label for="formGroupExampleInput2" class="form-label">Nom</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Tape ton nom ici">
+        </div>
+        <div class="mb-2 text-warning ">
+          <label for="exampleInputEmail1" class="form-label">Adresse mail</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="adresse@mail.com">
+          <div id="emailHelp" class="form-text text-white ">Nous ne partagerons jamais votre e-mail avec quelqu'un d'autre.</div>
+        </div>
+        <div class="mb-2 text-warning ">
+          <label for="formGroupExampleInput2" class="form-label">Objet du Message</label>
+        </div>
+        <select class="form-select mb-2 " aria-label="Selectionne l'objet">
+          <option selected></option> 
+          <option value="1">Réservation de table</option>
+          <option value="2">Commentaires ou feedback</option>
+          <option value="3">Informations sur l'événement</option>
+          <option value="4">Problèmes technique</option>
+          <option value="5">Autre</option>
+        </select>
+        <div class="mb-2">
+          <label for="exampleFormControlTextarea1" class="form-label text-warning ">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-info">Envoyer</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="d-flex justify-content-center align-items-center ">
+    <h2 class="text-center text-white mt-5 text-decoration-underline ">
+      Votre expérience chez Gourmand Galaxie:
+    </h2>
+  </div>
+
+  <div class="text-white text-center mt-3 fs-5 ">
+    <p>
+      Merci d'avoir choisi Gourmand Galaxie. Votre expérience est notre priorité. Nous espérons que vous avez apprécié votre voyage culinaire. Vos commentaires sont importants pour nous, et nous espérons vous revoir bientôt pour une nouvelle aventure gastronomique. <br>
+      <br>
+      Cordialement,
+      <br>
+      L'équipe de Gourmand Galaxie.
+    </p>
+  </div>
+  
+
+<div class="d-flex justify-content-center align-items-center mt-3 flex-wrap">
+  <img src="../restaurant-css-framework/image/premium_photo-1664298753317-179db93f8ad5.avif" alt="Votre Image" class="img-thumbnail" width="50%">
+  <img src="../restaurant-css-framework/image/photo-1564486054184-1c26aa52b1c3.avif" class="img-thumbnail  " width="46.5%">
+</div>
 
 
 
 
-      
-      <footer class="bg-black text-white text-center py-1">
+      <footer class="bg-black text-white text-center py-1 ">
         <div class="container">
-          <p>2023 Burger Fusion &copy;</p>
+          <p>2023 Gourmande Galaxie &copy;</p>
         </div>
       </footer>
 </body>
