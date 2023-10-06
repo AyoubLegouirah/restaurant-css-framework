@@ -1,32 +1,28 @@
-# Restaurant
+# Bienvenue dans mon restaurant
 
-A Simple vCard. Just trying stuff, like `svelte`.
 
-![vCard](https://raw.githubusercontent.com/code4cake/vcard/main/public/vCard.png)
+![Texte alternatif](/image/galaxiegourmande.png "Titre de l'image").
 
-## See it Live
+## Lien du site
 
-Click here to see the [live version]()
+https://ayoublegouirah.github.io/restaurant-css-framework/
 
-## Technologies Used
+## Tehnologie utilisé 
 
-Check the pkg.json for a complete list. But the most notable ones are:
+- `HTML` 
+- `CSS` 
+- `BOOTSTRAP`
 
-- `vite` compiler
-- `svelte` frontend library
-- `typescript` static type checking
+## Responsive ?
 
-## Develop
+Oui il est Responsive
 
-1. `git clone` project
-2. `pnpm install # or npm install # or yarn` to install dependencies
-3. `pnpm run start # or npm start # or yarn ...` to start developing
+## Screenshot 
 
-Other scripts worth mentioning
-
-- `pnpm run lint # or npm run lint` lints the project with `eslint`
-- `pnpm run format # or npm run format` formats the code with `prettier`
-
----
-
-&copy; 2023
+   ![Texte alternatif](./image/image-picture/screen1.png "Titre de l'image").    
+    ![Texte alternatif](./image/image-picture/screen2.png "Titre de l'image").
+     ![Texte alternatif](./image/image-picture/screen3.png "Titre de l'image").
+      ![Texte alternatif](./image/image-picture/scren4.png "Titre de l'image").
+       ![Texte alternatif](./image/image-picture/screen5.png "Titre de l'image").
+        ![Texte alternatif](./image/image-picture/screen6.png "Titre de l'image").
+         ![Texte alternatif](./image/image-picture/screen7.png "Titre de l'image").
