@@ -1,6 +1,6 @@
 body{
  background-image: url(../restaurant-css-framework/image/photo-1528484701073-2b22dc76649e.avif);
-    
+ 
 }
 
 #cb-cookie-banner { position: fixed; bottom: 0; left: 0; width: 100%; z-index: 999; border-radius: 0; display: none; }
