@@ -24,5 +24,5 @@ Oui il est Responsive
      ![Texte alternatif](./image/image-picture/screen3.png "Titre de l'image").
       ![Texte alternatif](./image/image-picture/scren4.png "Titre de l'image").
        ![Texte alternatif](./image/image-picture/screen5.png "Titre de l'image").
-        ![Texte alternatif](./image/image-picture/screen6.png "Titre de l'image").
-         ![Texte alternatif](./image/image-picture/screen7.png "Titre de l'image").
+        ![Texte alternatif](./image/image-picture/screen%20resto.png "Titre de l'image").
+         ![Texte alternatif](./image/Gourmande-Galaxie.png "Titre de l'image").
