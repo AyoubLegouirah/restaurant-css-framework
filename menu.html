@@ -52,42 +52,185 @@
         </div>
       </nav>
 
-<div class="container-fluid d-flex justify-content-center align-items-center mt-5   ">      
-    <ol class="list-group list-group-numbered ">
-        <p class="fs-1 text-white fw-bold">Menu du restaurant:</p>
-        <li class="list-group-item d-flex justify-content-between align-items-start bg-dark border border-black">
-          <div class="ms-2 me-auto">
-              <div class="fw-bold text-warning">Étoile Filante Grillée:</div>
-              <div class="d-flex flex-row align-items-center"> 
-                  <img class="img-fluid rounded" src="../restaurant-css-framework/image/jason-leung-O67LZfeyYBk-unsplash.jpg" width="35%">
-              </div>
-          </div>
-          <span class="badge bg-info rounded-pill">15€</span>
-      </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start bg-dark border border-black ">
-            <div class="ms-2 me-auto">
-                <div class="fw-bold text-warning ">Nébuleuse aux Truffes:</div>
-                <img  class="img-fluid rounded" src="../restaurant-css-framework/image/louis-hansel-IgGFGxULsWg-unsplash.jpg" width="35%"  >
-            </div>
-            <span class="badge bg-info rounded-pill">12€</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start bg-dark border border-black">
-            <div class="ms-2 me-auto">
-                <div class="fw-bold text-warning ">Suprême de Galaxie Gourmande:</div>
-                <img class="img-fluid rounded " src="../restaurant-css-framework/image/jay-wennington-N_Y88TWmGwA-unsplash.jpg" width="35%"  >
-            </div>
-            <span class="badge bg-info rounded-pill">18€</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start bg-dark border border-black">
-          <div class="ms-2 me-auto">
-              <div class="fw-bold text-warning ">Supernova au Fromage:</div>
-              <img class="img-fluid rounded " src="../restaurant-css-framework/image/photo-1625938393850-10f1f23de467.avif" width="35%"  >
-          </div>
-          <span class="badge bg-info rounded-pill">16€</span>
-      </li>
-    </ol>
+<div class="container text-white  mt-5" >
+  <h2 class="fs-1 text-decoration-underline " >Menu du restaurant</h2>
+</div>
+<div class="container   mt-5 " >
+<div class="accordion  " id="accordionExample">
+  <div class="accordion-item bg-black  ">
+    <h2 class="accordion-header ">
+      <button class="accordion-button bg-black text-warning border-black fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Étoile Filante Grillée
+        <span class="badge bg-info rounded-pill ms-3 fs-4 ">15€</span>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <img class="img-fluid rounded" src="../restaurant-css-framework/image/jason-leung-O67LZfeyYBk-unsplash.jpg" width="45%">
+        <p class="mt-4 fs-4 text-warning  ">Découvrez notre étoile filante grillée, une création croustillante et dorée, badigeonnée de beurre fondu et saupoudrée de sucre, rappelant la beauté d'une étoile filante. Garnie de fruits frais, elle est le dessert parfait pour couronner votre repas avec élégance.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg-black">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-black text-warning border-black fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Nébuleuse aux Truffes 
+        <span class="badge bg-info rounded-pill ms-2 fs-4 ">17€</span>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <img class="img-fluid rounded" src="../restaurant-css-framework/image/louis-hansel-IgGFGxULsWg-unsplash.jpg" width="45%">
+        <p class="mt-4 fs-4 text-warning ">Découvrez notre étoile filante grillée, une création croustillante et dorée, badigeonnée de beurre fondu et saupoudrée de sucre, rappelant la beauté d'une étoile filante. Garnie de fruits frais, elle est le dessert parfait pour couronner votre repas avec élégance.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg-black">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-black text-warning border-black fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Suprême de Galaxie
+        <span class="badge bg-info rounded-pill ms-2 fs-4 ">18€</span>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <img class="img-fluid rounded" src="../restaurant-css-framework/image/jay-wennington-N_Y88TWmGwA-unsplash.jpg" width="45%">
+        <p class="mt-4 fs-4 text-warning">Découvrez notre étoile filante grillée, une création croustillante et dorée, badigeonnée de beurre fondu et saupoudrée de sucre, rappelant la beauté d'une étoile filante. Garnie de fruits frais, elle est le dessert parfait pour couronner votre repas avec élégance.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg-black">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-black text-warning border-black fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Supernova au Fromage
+        <span class="badge bg-info rounded-pill ms-2 fs-4 ">20€</span>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <img class="img-fluid rounded" src="../restaurant-css-framework/image/photo-1625938393850-10f1f23de467.avif" width="45%">
+        <p class="mt-4 fs-4 text-warning">Découvrez notre étoile filante grillée, une création croustillante et dorée, badigeonnée de beurre fondu et saupoudrée de sucre, rappelant la beauté d'une étoile filante. Garnie de fruits frais, elle est le dessert parfait pour couronner votre repas avec élégance.</p>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 
+<div class="container text-white  mt-5" >
+  <h2 class="fs-1 text-decoration-underline " >Dessert </h2>
+</div>
+<div class="container   mt-5 " >
+<div class="accordion  " id="accordionExample">
+  <div class="accordion-item bg-black  ">
+    <h2 class="accordion-header ">
+      <button class="accordion-button bg-black text-warning border-black fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Étoile sucrée aux saveurs cosmiques
+        <span class="badge bg-info rounded-pill ms-3 fs-4 ">10€</span>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <img class="img-fluid rounded" src="../restaurant-css-framework/image/dessert1.avif" width="35%">
+        <p class="mt-4 fs-4 text-warning  ">Découvrez notre étoile filante grillée, une création croustillante et dorée, badigeonnée de beurre fondu et saupoudrée de sucre, rappelant la beauté d'une étoile filante. Garnie de fruits frais, elle est le dessert parfait pour couronner votre repas avec élégance.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg-black">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-black text-warning border-black fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Galaxie gourmande en verrine 
+        <span class="badge bg-info rounded-pill ms-2 fs-4 ">12€</span>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <img class="img-fluid rounded" src="../restaurant-css-framework/image/dessert2.avif" width="35%">
+        <p class="mt-4 fs-4 text-warning ">Découvrez notre étoile filante grillée, une création croustillante et dorée, badigeonnée de beurre fondu et saupoudrée de sucre, rappelant la beauté d'une étoile filante. Garnie de fruits frais, elle est le dessert parfait pour couronner votre repas avec élégance.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg-black">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-black text-warning border-black fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Nébuleuse de douceurs
+        <span class="badge bg-info rounded-pill ms-2 fs-4 ">9€</span>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <img class="img-fluid rounded" src="../restaurant-css-framework/image/dessert3.avif" width="35%">
+        <p class="mt-4 fs-4 text-warning">Découvrez notre étoile filante grillée, une création croustillante et dorée, badigeonnée de beurre fondu et saupoudrée de sucre, rappelant la beauté d'une étoile filante. Garnie de fruits frais, elle est le dessert parfait pour couronner votre repas avec élégance.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg-black">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-black text-warning border-black fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Constellation de desserts délicieux
+        <span class="badge bg-info rounded-pill ms-2 fs-4 ">8€</span>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <img class="img-fluid rounded" src="../restaurant-css-framework/image/dessert4.avif" width="35%">
+        <p class="mt-4 fs-4 text-warning">Découvrez notre étoile filante grillée, une création croustillante et dorée, badigeonnée de beurre fondu et saupoudrée de sucre, rappelant la beauté d'une étoile filante. Garnie de fruits frais, elle est le dessert parfait pour couronner votre repas avec élégance.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<div class="container text-white  mt-5" >
+  <h2 class="fs-1 text-decoration-underline " >Boisson </h2>
+</div>
+<div class="container vh-100  mt-5 " >
+<div class="accordion  " id="accordionExample">
+  <div class="accordion-item bg-black  ">
+    <h2 class="accordion-header ">
+      <button class="accordion-button bg-black text-warning border-black fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Élixir stellaire pétillant
+        <span class="badge bg-info rounded-pill ms-3 fs-4 ">5€</span>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <img class="img-fluid rounded" src="../restaurant-css-framework/image/boissons1.avif" width="35%">
+        <p class="mt-4 fs-4 text-warning  ">Découvrez notre étoile filante grillée, une création croustillante et dorée, badigeonnée de beurre fondu et saupoudrée de sucre, rappelant la beauté d'une étoile filante. Garnie de fruits frais, elle est le dessert parfait pour couronner votre repas avec élégance.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg-black">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-black text-warning border-black fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Cocktail cosmique aux étoiles
+        <span class="badge bg-info rounded-pill ms-2 fs-4 ">7€</span>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <img class="img-fluid rounded" src="../restaurant-css-framework/image/boisson2.avif" width="35%">
+        <p class="mt-4 fs-4 text-warning ">Découvrez notre étoile filante grillée, une création croustillante et dorée, badigeonnée de beurre fondu et saupoudrée de sucre, rappelant la beauté d'une étoile filante. Garnie de fruits frais, elle est le dessert parfait pour couronner votre repas avec élégance.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg-black">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-black text-warning border-black fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Nectar intergalactique rafraîchissant
+        <span class="badge bg-info rounded-pill ms-2 fs-4 ">9€</span>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <img class="img-fluid rounded" src="../restaurant-css-framework/image/boisson3.avif" width="35%">
+        <p class="mt-4 fs-4 text-warning">Découvrez notre étoile filante grillée, une création croustillante et dorée, badigeonnée de beurre fondu et saupoudrée de sucre, rappelant la beauté d'une étoile filante. Garnie de fruits frais, elle est le dessert parfait pour couronner votre repas avec élégance.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
 
     
